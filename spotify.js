@@ -44,7 +44,6 @@ async function main() {
               return {
                 name: track.name,
                 popularity: track.popularity,
-                preview_url: track.preview_url,
                 duration_ms: track.duration_ms,
                 album_name: track.album.name,
                 album_genres: album.body.genres || [], // Genres des Albums (falls vorhanden)
@@ -55,7 +54,6 @@ async function main() {
               return {
                 name: track.name,
                 popularity: track.popularity,
-                preview_url: track.preview_url,
                 duration_ms: track.duration_ms,
                 album_name: track.album.name,
                 album_genres: [],
