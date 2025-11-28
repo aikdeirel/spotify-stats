@@ -9,7 +9,6 @@ const spotifyApi = new SpotifyWebApi({
 
 async function main() {
   try {
-    // Refresh the access token
     const data = await spotifyApi.refreshAccessToken();
     spotifyApi.setAccessToken(data.body['access_token']);
   } catch (error) {
@@ -19,7 +18,6 @@ async function main() {
 
   let response;
   try {
-    // Get top 10 artists (short_term)
     response = await spotifyApi.getMyTopArtists({
       limit: 10,
       time_range: 'short_term'
@@ -29,13 +27,43 @@ async function main() {
     process.exit(1);
   }
 
-  // Fetch extended data for each artist
   const topArtists = await Promise.all(
     response.body.items.map(async (artist) => {
       try {
-        // Fetch albums and top tracks for the artist
+        // Alben des Künstlers
         const albums = await spotifyApi.getArtistAlbums(artist.id, { limit: 3 });
-        const topTracks = await spotifyApi.getArtistTopTracks(artist.id, 'DE'); // 'DE' = Germany
+        // Top-Tracks des Künstlers (für Deutschland)
+        const topTracks = await spotifyApi.getArtistTopTracks(artist.id, 'DE');
+
+        // Track-Details erweitern: Album-Informationen abrufen, um Genres des Albums zu erhalten
+        const tracksWithAlbums = await Promise.all(
+          topTracks.body.tracks.map(async (track) => {
+            try {
+              // Album-Details abrufen, um Genres des Albums zu erhalten
+              const album = await spotifyApi.getAlbum(track.album.id);
+              return {
+                name: track.name,
+                popularity: track.popularity,
+                preview_url: track.preview_url,
+                duration_ms: track.duration_ms,
+                album_name: track.album.name,
+                album_genres: album.body.genres || [], // Genres des Albums (falls vorhanden)
+                album_release_date: track.album.release_date
+              };
+            } catch (error) {
+              console.error(`Failed to fetch album for track ${track.name}:`, error.message);
+              return {
+                name: track.name,
+                popularity: track.popularity,
+                preview_url: track.preview_url,
+                duration_ms: track.duration_ms,
+                album_name: track.album.name,
+                album_genres: [],
+                album_release_date: track.album.release_date
+              };
+            }
+          })
+        );
 
         return {
           id: artist.id,
@@ -43,31 +71,22 @@ async function main() {
           genres: artist.genres,
           popularity: artist.popularity,
           followers: artist.followers.total,
-          images: artist.images,
           url: artist.external_urls.spotify,
           albums: albums.body.items.map(album => ({
             name: album.name,
             release_date: album.release_date,
-            images: album.images,
             total_tracks: album.total_tracks
           })),
-          top_tracks: topTracks.body.tracks.map(track => ({
-            name: track.name,
-            popularity: track.popularity,
-            preview_url: track.preview_url,
-            duration_ms: track.duration_ms
-          }))
+          top_tracks: tracksWithAlbums
         };
       } catch (error) {
         console.error(`Failed to fetch additional data for artist ${artist.name}:`, error.message);
-        // Return basic data if extended data fails
         return {
           id: artist.id,
           name: artist.name,
           genres: artist.genres,
           popularity: artist.popularity,
           followers: artist.followers.total,
-          images: artist.images,
           url: artist.external_urls.spotify,
           albums: [],
           top_tracks: []
@@ -76,9 +95,8 @@ async function main() {
     })
   );
 
-  // Save to JSON file
   fs.writeFileSync('spotify_top.json', JSON.stringify(topArtists, null, 2));
-  console.log('Enhanced top artists saved to spotify_top.json');
+  console.log('Updated top artists saved to spotify_top.json');
 }
 
 main().catch(error => {
