@@ -7,89 +7,21 @@
     ],
     "popularity": 14,
     "followers": 5935,
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5ebecf8f34141c40ca9572f0f7d",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab67616100005174ecf8f34141c40ca9572f0f7d",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f178ecf8f34141c40ca9572f0f7d",
-        "width": 160
-      }
-    ],
     "url": "https://open.spotify.com/artist/77rXxPR5619AfT3a6YzL1P",
     "albums": [
       {
         "name": "Current",
         "release_date": "2018",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b273971d7e502b837b2b054a6869",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e02971d7e502b837b2b054a6869",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00004851971d7e502b837b2b054a6869",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 10
       },
       {
         "name": "Stabat Mater",
         "release_date": "2013-11-06",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b273180aba72b97b2f39631ae023",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e02180aba72b97b2f39631ae023",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00004851180aba72b97b2f39631ae023",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 10
       },
       {
         "name": "D Is Done",
         "release_date": "2008-10-20",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b2732263f8bce93161aade8bc02e",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e022263f8bce93161aade8bc02e",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d000048512263f8bce93161aade8bc02e",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 9
       }
     ],
@@ -98,61 +30,91 @@
         "name": "Oh Frail",
         "popularity": 19,
         "preview_url": null,
-        "duration_ms": 162560
+        "duration_ms": 162560,
+        "album_name": "D Is Done",
+        "album_genres": [],
+        "album_release_date": "2008-10-20"
       },
       {
         "name": "A Current",
         "popularity": 18,
         "preview_url": null,
-        "duration_ms": 193190
+        "duration_ms": 193190,
+        "album_name": "Current",
+        "album_genres": [],
+        "album_release_date": "2018"
       },
       {
         "name": "Ti:me",
         "popularity": 16,
         "preview_url": null,
-        "duration_ms": 305586
+        "duration_ms": 305586,
+        "album_name": "D Is Done",
+        "album_genres": [],
+        "album_release_date": "2008-10-20"
       },
       {
         "name": "Papa Bear",
         "popularity": 16,
         "preview_url": null,
-        "duration_ms": 306960
+        "duration_ms": 306960,
+        "album_name": "A Field Between",
+        "album_genres": [],
+        "album_release_date": "2006-04-20"
       },
       {
         "name": "Write Or Wrong",
         "popularity": 12,
         "preview_url": null,
-        "duration_ms": 282946
+        "duration_ms": 282946,
+        "album_name": "D Is Done",
+        "album_genres": [],
+        "album_release_date": "2008-10-20"
       },
       {
         "name": "Crucem",
         "popularity": 10,
         "preview_url": null,
-        "duration_ms": 357080
+        "duration_ms": 357080,
+        "album_name": "Stabat Mater",
+        "album_genres": [],
+        "album_release_date": "2013-11-06"
       },
       {
         "name": "Ill Timed",
         "popularity": 8,
         "preview_url": null,
-        "duration_ms": 207307
+        "duration_ms": 207307,
+        "album_name": "Current",
+        "album_genres": [],
+        "album_release_date": "2018"
       },
       {
         "name": "One More Time",
         "popularity": 7,
         "preview_url": null,
-        "duration_ms": 219939
+        "duration_ms": 219939,
+        "album_name": "Current",
+        "album_genres": [],
+        "album_release_date": "2018"
       },
       {
         "name": "Breathe, Sail On",
         "popularity": 7,
         "preview_url": null,
-        "duration_ms": 219939
+        "duration_ms": 219939,
+        "album_name": "Current",
+        "album_genres": [],
+        "album_release_date": "2018"
       },
       {
         "name": "Fafafafuckin'",
         "popularity": 7,
         "preview_url": null,
-        "duration_ms": 326546
+        "duration_ms": 326546,
+        "album_name": "D Is Done",
+        "album_genres": [],
+        "album_release_date": "2008-10-20"
       }
     ]
   },
@@ -165,89 +127,21 @@
     ],
     "popularity": 71,
     "followers": 3854213,
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb73edfbd970917913cfc647c7",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab6761610000517473edfbd970917913cfc647c7",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f17873edfbd970917913cfc647c7",
-        "width": 160
-      }
-    ],
     "url": "https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn",
     "albums": [
       {
         "name": "In Times New Roman...",
         "release_date": "2023-06-16",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b27312e1b9b459004ade29f145e1",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e0212e1b9b459004ade29f145e1",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000485112e1b9b459004ade29f145e1",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 10
       },
       {
         "name": "Villains",
         "release_date": "2017-08-25",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b27389401ba9a9c231e2add35ae8",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e0289401ba9a9c231e2add35ae8",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000485189401ba9a9c231e2add35ae8",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 9
       },
       {
         "name": "...Like Clockwork",
         "release_date": "2013-06-03",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b273a705b56a83b703453d8ddd04",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e02a705b56a83b703453d8ddd04",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00004851a705b56a83b703453d8ddd04",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 10
       }
     ],
@@ -256,61 +150,91 @@
         "name": "No One Knows",
         "popularity": 73,
         "preview_url": null,
-        "duration_ms": 278746
+        "duration_ms": 278746,
+        "album_name": "Songs For The Deaf",
+        "album_genres": [],
+        "album_release_date": "2002-01-01"
       },
       {
         "name": "Go With The Flow",
         "popularity": 69,
         "preview_url": null,
-        "duration_ms": 187146
+        "duration_ms": 187146,
+        "album_name": "Songs For The Deaf",
+        "album_genres": [],
+        "album_release_date": "2002-01-01"
       },
       {
         "name": "Make It Wit Chu",
         "popularity": 69,
         "preview_url": null,
-        "duration_ms": 290493
+        "duration_ms": 290493,
+        "album_name": "Era Vulgaris",
+        "album_genres": [],
+        "album_release_date": "2007-01-01"
       },
       {
         "name": "Song For The Dead",
         "popularity": 64,
         "preview_url": null,
-        "duration_ms": 352453
+        "duration_ms": 352453,
+        "album_name": "Songs For The Deaf",
+        "album_genres": [],
+        "album_release_date": "2002-01-01"
       },
       {
         "name": "Little Sister",
         "popularity": 61,
         "preview_url": null,
-        "duration_ms": 174026
+        "duration_ms": 174026,
+        "album_name": "Lullabies To Paralyze",
+        "album_genres": [],
+        "album_release_date": "2005-01-01"
       },
       {
         "name": "I Sat by the Ocean",
         "popularity": 65,
         "preview_url": null,
-        "duration_ms": 235586
+        "duration_ms": 235586,
+        "album_name": "...Like Clockwork",
+        "album_genres": [],
+        "album_release_date": "2013-06-03"
       },
       {
         "name": "You Think I Ain't Worth A Dollar, But I Feel Like A Millionaire - Album Version (With Interlude)",
         "popularity": 61,
         "preview_url": null,
-        "duration_ms": 192493
+        "duration_ms": 192493,
+        "album_name": "Songs For The Deaf",
+        "album_genres": [],
+        "album_release_date": "2002-01-01"
       },
       {
         "name": "The Lost Art Of Keeping A Secret",
         "popularity": 58,
         "preview_url": null,
-        "duration_ms": 216000
+        "duration_ms": 216000,
+        "album_name": "Rated R",
+        "album_genres": [],
+        "album_release_date": "2000-06-06"
       },
       {
         "name": "First It Giveth",
         "popularity": 61,
         "preview_url": null,
-        "duration_ms": 198386
+        "duration_ms": 198386,
+        "album_name": "Songs For The Deaf",
+        "album_genres": [],
+        "album_release_date": "2002-01-01"
       },
       {
         "name": "3's & 7's",
         "popularity": 58,
         "preview_url": null,
-        "duration_ms": 214066
+        "duration_ms": 214066,
+        "album_name": "Era Vulgaris",
+        "album_genres": [],
+        "album_release_date": "2007-01-01"
       }
     ]
   },
@@ -323,89 +247,21 @@
     ],
     "popularity": 50,
     "followers": 625805,
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb5c58771372707e8b22c664ee",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab676161000051745c58771372707e8b22c664ee",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f1785c58771372707e8b22c664ee",
-        "width": 160
-      }
-    ],
     "url": "https://open.spotify.com/artist/34UhPkLbtFKRq3nmfFgejG",
     "albums": [
       {
         "name": "The Bombing of Pan Am 103 (Soundtrack)",
         "release_date": "2025-05-18",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b2731db9e9949bdaf527d3f1017d",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e021db9e9949bdaf527d3f1017d",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d000048511db9e9949bdaf527d3f1017d",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 15
       },
       {
         "name": "The Bad Fire",
         "release_date": "2025-01-24",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b273a01661502454006576ebd357",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e02a01661502454006576ebd357",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00004851a01661502454006576ebd357",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 10
       },
       {
         "name": "Black Bird (Season 1)",
         "release_date": "2022-07-08",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b2733dc913208fa04d428e722d3c",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e023dc913208fa04d428e722d3c",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d000048513dc913208fa04d428e722d3c",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 23
       }
     ],
@@ -414,61 +270,91 @@
         "name": "Kids Will Be Skeletons",
         "popularity": 49,
         "preview_url": null,
-        "duration_ms": 327173
+        "duration_ms": 327173,
+        "album_name": "Happy Songs for Happy People",
+        "album_genres": [],
+        "album_release_date": "2003-06-09"
       },
       {
         "name": "Take Me Somewhere Nice",
         "popularity": 48,
         "preview_url": null,
-        "duration_ms": 417226
+        "duration_ms": 417226,
+        "album_name": "Rock Action",
+        "album_genres": [],
+        "album_release_date": "2001-04-30"
       },
       {
         "name": "Ritchie Sacramento",
         "popularity": 44,
         "preview_url": null,
-        "duration_ms": 252266
+        "duration_ms": 252266,
+        "album_name": "As The Love Continues",
+        "album_genres": [],
+        "album_release_date": "2021-02-19"
       },
       {
         "name": "Auto Rock",
         "popularity": 45,
         "preview_url": null,
-        "duration_ms": 260600
+        "duration_ms": 260600,
+        "album_name": "Mr. Beast",
+        "album_genres": [],
+        "album_release_date": "2006-03-05"
       },
       {
         "name": "Hunted by a Freak",
         "popularity": 43,
         "preview_url": null,
-        "duration_ms": 256092
+        "duration_ms": 256092,
+        "album_name": "Happy Songs for Happy People",
+        "album_genres": [],
+        "album_release_date": "2003-06-09"
       },
       {
         "name": "Helicon 1",
         "popularity": 35,
         "preview_url": null,
-        "duration_ms": 360706
+        "duration_ms": 360706,
+        "album_name": "Ten Rapid",
+        "album_genres": [],
+        "album_release_date": "1997-04-17"
       },
       {
         "name": "Hungry Face",
         "popularity": 37,
         "preview_url": null,
-        "duration_ms": 144693
+        "duration_ms": 144693,
+        "album_name": "Les Revenants Soundtrack",
+        "album_genres": [],
+        "album_release_date": "2013-02-25"
       },
       {
         "name": "God Gets You Back",
         "popularity": 37,
         "preview_url": null,
-        "duration_ms": 400842
+        "duration_ms": 400842,
+        "album_name": "The Bad Fire",
+        "album_genres": [],
+        "album_release_date": "2025-01-24"
       },
       {
         "name": "I'm Jim Morrison, I'm Dead",
         "popularity": 39,
         "preview_url": null,
-        "duration_ms": 404480
+        "duration_ms": 404480,
+        "album_name": "The Hawk Is Howling",
+        "album_genres": [],
+        "album_release_date": "2008-09-21"
       },
       {
         "name": "Fanzine Made Of Flesh",
         "popularity": 35,
         "preview_url": null,
-        "duration_ms": 274229
+        "duration_ms": 274229,
+        "album_name": "The Bad Fire",
+        "album_genres": [],
+        "album_release_date": "2025-01-24"
       }
     ]
   },
@@ -481,89 +367,21 @@
     ],
     "popularity": 42,
     "followers": 164101,
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5ebc0106d608181d5c046de58cf",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab67616100005174c0106d608181d5c046de58cf",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f178c0106d608181d5c046de58cf",
-        "width": 160
-      }
-    ],
     "url": "https://open.spotify.com/artist/5aj3LEYRbuaabjjHkj5oE1",
     "albums": [
       {
         "name": "Death Mask",
         "release_date": "2025-06-06",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b273cbe1fff2158e1931f522974d",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e02cbe1fff2158e1931f522974d",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00004851cbe1fff2158e1931f522974d",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 9
       },
       {
         "name": "Transmission",
         "release_date": "2016-05-27",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b273314de2ac42e63d6afde0f53e",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e02314de2ac42e63d6afde0f53e",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00004851314de2ac42e63d6afde0f53e",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 10
       },
       {
         "name": "Trans-Love Energies",
         "release_date": "2011-11-25",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b2732b5468ac20411c1f19630667",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e022b5468ac20411c1f19630667",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d000048512b5468ac20411c1f19630667",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 20
       }
     ],
@@ -572,61 +390,91 @@
         "name": "Dirge",
         "popularity": 46,
         "preview_url": null,
-        "duration_ms": 343866
+        "duration_ms": 343866,
+        "album_name": "The Contino Sessions",
+        "album_genres": [],
+        "album_release_date": "1999"
       },
       {
         "name": "Scorpio Rising",
         "popularity": 42,
         "preview_url": null,
-        "duration_ms": 337866
+        "duration_ms": 337866,
+        "album_name": "Edgar Card Sampler",
+        "album_genres": [],
+        "album_release_date": "2002-12-18"
       },
       {
         "name": "Girls",
         "popularity": 38,
         "preview_url": null,
-        "duration_ms": 270226
+        "duration_ms": 270226,
+        "album_name": "Scorpio Rising",
+        "album_genres": [],
+        "album_release_date": "2003"
       },
       {
         "name": "Dirt",
         "popularity": 35,
         "preview_url": null,
-        "duration_ms": 357040
+        "duration_ms": 357040,
+        "album_name": "Dead Elvis/Int'l version",
+        "album_genres": [],
+        "album_release_date": "1997"
       },
       {
         "name": "Hands Around My Throat",
         "popularity": 40,
         "preview_url": null,
-        "duration_ms": 401506
+        "duration_ms": 401506,
+        "album_name": "Satan's Circus",
+        "album_genres": [],
+        "album_release_date": "2004-10-11"
       },
       {
         "name": "Aisha",
         "popularity": 38,
         "preview_url": null,
-        "duration_ms": 352826
+        "duration_ms": 352826,
+        "album_name": "The Contino Sessions",
+        "album_genres": [],
+        "album_release_date": "1999"
       },
       {
         "name": "Hands Around My Throat - D.I.V.",
         "popularity": 36,
         "preview_url": null,
-        "duration_ms": 307466
+        "duration_ms": 307466,
+        "album_name": "Edgar Card Sampler",
+        "album_genres": [],
+        "album_release_date": "2002-12-18"
       },
       {
         "name": "Your Loft My Acid feat. Katie Stelmanis - Fearless Trans House Mix",
         "popularity": 37,
         "preview_url": null,
-        "duration_ms": 305906
+        "duration_ms": 305906,
+        "album_name": "Trans-Love Energies",
+        "album_genres": [],
+        "album_release_date": "2011-11-25"
       },
       {
         "name": "All That Glitters",
         "popularity": 34,
         "preview_url": null,
-        "duration_ms": 393640
+        "duration_ms": 393640,
+        "album_name": "Dead Elvis",
+        "album_genres": [],
+        "album_release_date": "1997"
       },
       {
         "name": "Your Loft My Acid feat. Katie Stelmanis",
         "popularity": 33,
         "preview_url": null,
-        "duration_ms": 451040
+        "duration_ms": 451040,
+        "album_name": "Trans-Love Energies",
+        "album_genres": [],
+        "album_release_date": "2011-11-25"
       }
     ]
   },
@@ -643,89 +491,21 @@
     ],
     "popularity": 27,
     "followers": 22129,
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab67616d0000b273fc4482ed35a62502eb8a6748",
-        "width": 640
-      },
-      {
-        "height": 300,
-        "url": "https://i.scdn.co/image/ab67616d00001e02fc4482ed35a62502eb8a6748",
-        "width": 300
-      },
-      {
-        "height": 64,
-        "url": "https://i.scdn.co/image/ab67616d00004851fc4482ed35a62502eb8a6748",
-        "width": 64
-      }
-    ],
     "url": "https://open.spotify.com/artist/32xWwz2gIfDyoKrUo9ros1",
     "albums": [
       {
         "name": "Part Island",
         "release_date": "2019-04-05",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b273eb4a007b7801a0c28e11e3c7",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e02eb4a007b7801a0c28e11e3c7",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00004851eb4a007b7801a0c28e11e3c7",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 6
       },
       {
         "name": "Old Sunlight",
         "release_date": "2016-01-22",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b2731aadbb6ee338eb31d3a3db5c",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e021aadbb6ee338eb31d3a3db5c",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d000048511aadbb6ee338eb31d3a3db5c",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 7
       },
       {
         "name": "Individuation",
         "release_date": "2012-07-02",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b2736496bc46f5401c3777e6abee",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e026496bc46f5401c3777e6abee",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d000048516496bc46f5401c3777e6abee",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 8
       }
     ],
@@ -734,61 +514,91 @@
         "name": "Steppe & Veld",
         "popularity": 35,
         "preview_url": null,
-        "duration_ms": 218186
+        "duration_ms": 218186,
+        "album_name": "Agonist",
+        "album_genres": [],
+        "album_release_date": "2009-10-03"
       },
       {
         "name": "Antechamber",
         "popularity": 34,
         "preview_url": null,
-        "duration_ms": 425506
+        "duration_ms": 425506,
+        "album_name": "Agonist",
+        "album_genres": [],
+        "album_release_date": "2009-10-03"
       },
       {
         "name": "Braille",
         "popularity": 30,
         "preview_url": null,
-        "duration_ms": 248586
+        "duration_ms": 248586,
+        "album_name": "Agonist",
+        "album_genres": [],
+        "album_release_date": "2009-10-03"
       },
       {
         "name": "Moorland Is the Sea",
         "popularity": 23,
         "preview_url": null,
-        "duration_ms": 439720
+        "duration_ms": 439720,
+        "album_name": "Part Island",
+        "album_genres": [],
+        "album_release_date": "2019-04-05"
       },
       {
         "name": "Amnio",
         "popularity": 22,
         "preview_url": null,
-        "duration_ms": 214777
+        "duration_ms": 214777,
+        "album_name": "Old Sunlight",
+        "album_genres": [],
+        "album_release_date": "2016-01-22"
       },
       {
         "name": "Hunting Dance",
         "popularity": 22,
         "preview_url": null,
-        "duration_ms": 430320
+        "duration_ms": 430320,
+        "album_name": "Agonist",
+        "album_genres": [],
+        "album_release_date": "2009-10-03"
       },
       {
         "name": "Underlie",
         "popularity": 21,
         "preview_url": null,
-        "duration_ms": 339295
+        "duration_ms": 339295,
+        "album_name": "Part Island",
+        "album_genres": [],
+        "album_release_date": "2019-04-05"
       },
       {
         "name": "Bleak Epiphany in Slow Motion",
         "popularity": 20,
         "preview_url": null,
-        "duration_ms": 248466
+        "duration_ms": 248466,
+        "album_name": "Bleak Epiphanies in Slow Motion",
+        "album_genres": [],
+        "album_release_date": "2007-10-01"
       },
       {
         "name": "Agonist",
         "popularity": 20,
         "preview_url": null,
-        "duration_ms": 409333
+        "duration_ms": 409333,
+        "album_name": "Agonist",
+        "album_genres": [],
+        "album_release_date": "2009-10-03"
       },
       {
         "name": "Myth Cathexis",
         "popularity": 20,
         "preview_url": null,
-        "duration_ms": 433293
+        "duration_ms": 433293,
+        "album_name": "Agonist",
+        "album_genres": [],
+        "album_release_date": "2009-10-03"
       }
     ]
   },
@@ -801,89 +611,21 @@
     ],
     "popularity": 46,
     "followers": 409183,
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb9945ffb28d032cea141fc5c3",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab676161000051749945ffb28d032cea141fc5c3",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f1789945ffb28d032cea141fc5c3",
-        "width": 160
-      }
-    ],
     "url": "https://open.spotify.com/artist/4O71i7ke5iIBX6RNSFoZbS",
     "albums": [
       {
         "name": "Dreamweaver",
         "release_date": "2024-09-13",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b2732f3cf5f905c27708bc9a63d5",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e022f3cf5f905c27708bc9a63d5",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d000048512f3cf5f905c27708bc9a63d5",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 10
       },
       {
         "name": "Memoria",
         "release_date": "2022-02-11",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b27386d492fe0323e576b39f1737",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e0286d492fe0323e576b39f1737",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000485186d492fe0323e576b39f1737",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 14
       },
       {
         "name": "Obverse",
         "release_date": "2019-09-27",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b273b9a9dd955eb79ac7c38635d6",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e02b9a9dd955eb79ac7c38635d6",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00004851b9a9dd955eb79ac7c38635d6",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 10
       }
     ],
@@ -892,61 +634,91 @@
         "name": "Miss You",
         "popularity": 48,
         "preview_url": null,
-        "duration_ms": 247817
+        "duration_ms": 247817,
+        "album_name": "The Last Resort",
+        "album_genres": [],
+        "album_release_date": "2006-10-06"
       },
       {
         "name": "Moan - Trentemøller Remix",
         "popularity": 47,
         "preview_url": null,
-        "duration_ms": 445390
+        "duration_ms": 445390,
+        "album_name": "Moan",
+        "album_genres": [],
+        "album_release_date": "2007-03-05"
       },
       {
         "name": "Deceive",
         "popularity": 42,
         "preview_url": null,
-        "duration_ms": 284345
+        "duration_ms": 284345,
+        "album_name": "Lost",
+        "album_genres": [],
+        "album_release_date": "2013-09-23"
       },
       {
         "name": "Take Me Into Your Skin",
         "popularity": 41,
         "preview_url": null,
-        "duration_ms": 450562
+        "duration_ms": 450562,
+        "album_name": "The Last Resort",
+        "album_genres": [],
+        "album_release_date": "2006-10-06"
       },
       {
         "name": "Nightwalker",
         "popularity": 39,
         "preview_url": null,
-        "duration_ms": 349573
+        "duration_ms": 349573,
+        "album_name": "The Last Resort",
+        "album_genres": [],
+        "album_release_date": "2006-10-06"
       },
       {
         "name": "Moan - Trentemøller Remix Radio Edit",
         "popularity": 39,
         "preview_url": null,
-        "duration_ms": 212713
+        "duration_ms": 212713,
+        "album_name": "Moan",
+        "album_genres": [],
+        "album_release_date": "2007-03-05"
       },
       {
         "name": "Moan - Trentemøller Dub Remix",
         "popularity": 39,
         "preview_url": null,
-        "duration_ms": 442188
+        "duration_ms": 442188,
+        "album_name": "Early Worx",
+        "album_genres": [],
+        "album_release_date": "2014-11-24"
       },
       {
         "name": "the end or the beginning - Trentemøller Remix",
         "popularity": 31,
         "preview_url": null,
-        "duration_ms": 218160
+        "duration_ms": 218160,
+        "album_name": "slow food",
+        "album_genres": [],
+        "album_release_date": "2025-10-31"
       },
       {
         "name": "Like a Stone - trentemøller Remix",
         "popularity": 37,
         "preview_url": null,
-        "duration_ms": 220904
+        "duration_ms": 220904,
+        "album_name": "Like a Stone (trentemøller Remix)",
+        "album_genres": [],
+        "album_release_date": "2021-02-24"
       },
       {
         "name": "Come Undone - Trentemøller Remix",
         "popularity": 35,
         "preview_url": null,
-        "duration_ms": 229820
+        "duration_ms": 229820,
+        "album_name": "Lost Reworks",
+        "album_genres": [],
+        "album_release_date": "2014-04-01"
       }
     ]
   },
@@ -959,94 +731,21 @@
     ],
     "popularity": 70,
     "followers": 2691860,
-    "images": [
-      {
-        "height": 1335,
-        "url": "https://i.scdn.co/image/c8bbeedb05f38ae5cb982a7daf4bf7129cca892c",
-        "width": 1000
-      },
-      {
-        "height": 855,
-        "url": "https://i.scdn.co/image/52c2a824e84f4e8adf0b12418f9f8306b4b5b77a",
-        "width": 640
-      },
-      {
-        "height": 267,
-        "url": "https://i.scdn.co/image/0d6b7677f8291c5158bdace8a6e027880c527c2a",
-        "width": 200
-      },
-      {
-        "height": 85,
-        "url": "https://i.scdn.co/image/c055290bb6e97a589d8ca659cd452a8e9831c2c4",
-        "width": 64
-      }
-    ],
     "url": "https://open.spotify.com/artist/6FXMGgJwohJLUSr5nVlf9X",
     "albums": [
       {
         "name": "Mezzanine (Deluxe)",
         "release_date": "2019-08-23",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b2735a34af7f2b06eb84c17d833e",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e025a34af7f2b06eb84c17d833e",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d000048515a34af7f2b06eb84c17d833e",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 19
       },
       {
         "name": "Heligoland",
         "release_date": "2010-02-08",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b273852aaa233e122f1dbfefcf00",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e02852aaa233e122f1dbfefcf00",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00004851852aaa233e122f1dbfefcf00",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 14
       },
       {
         "name": "Danny The Dog - OST",
         "release_date": "2004-10-11",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b273d9a7373546ce7f335af2c69b",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e02d9a7373546ce7f335af2c69b",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00004851d9a7373546ce7f335af2c69b",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 23
       }
     ],
@@ -1055,61 +754,91 @@
         "name": "Angel",
         "popularity": 79,
         "preview_url": null,
-        "duration_ms": 379533
+        "duration_ms": 379533,
+        "album_name": "Mezzanine",
+        "album_genres": [],
+        "album_release_date": "1998-01-01"
       },
       {
         "name": "Teardrop",
         "popularity": 74,
         "preview_url": null,
-        "duration_ms": 330773
+        "duration_ms": 330773,
+        "album_name": "Mezzanine",
+        "album_genres": [],
+        "album_release_date": "1998-01-01"
       },
       {
         "name": "Unfinished Sympathy - 2012 Mix/Master",
         "popularity": 69,
         "preview_url": null,
-        "duration_ms": 308426
+        "duration_ms": 308426,
+        "album_name": "Blue Lines (2012 Mix/Master)",
+        "album_genres": [],
+        "album_release_date": "1991-06-10"
       },
       {
         "name": "Paradise Circus",
         "popularity": 67,
         "preview_url": null,
-        "duration_ms": 297774
+        "duration_ms": 297774,
+        "album_name": "Heligoland",
+        "album_genres": [],
+        "album_release_date": "2010-02-08"
       },
       {
         "name": "Black Milk",
         "popularity": 64,
         "preview_url": null,
-        "duration_ms": 381666
+        "duration_ms": 381666,
+        "album_name": "Mezzanine",
+        "album_genres": [],
+        "album_release_date": "1998-01-01"
       },
       {
         "name": "Safe From Harm - 2012 Mix/Master",
         "popularity": 63,
         "preview_url": null,
-        "duration_ms": 319000
+        "duration_ms": 319000,
+        "album_name": "Blue Lines (2012 Mix/Master)",
+        "album_genres": [],
+        "album_release_date": "1991-06-10"
       },
       {
         "name": "Dissolved Girl",
         "popularity": 62,
         "preview_url": null,
-        "duration_ms": 366893
+        "duration_ms": 366893,
+        "album_name": "Mezzanine",
+        "album_genres": [],
+        "album_release_date": "1998-01-01"
       },
       {
         "name": "Protection",
         "popularity": 61,
         "preview_url": null,
-        "duration_ms": 471560
+        "duration_ms": 471560,
+        "album_name": "Protection",
+        "album_genres": [],
+        "album_release_date": "1994-09-26"
       },
       {
         "name": "Angel - Radio Edit",
         "popularity": 53,
         "preview_url": null,
-        "duration_ms": 324853
+        "duration_ms": 324853,
+        "album_name": "Angel",
+        "album_genres": [],
+        "album_release_date": "1998-07-13"
       },
       {
         "name": "Risingson",
         "popularity": 60,
         "preview_url": null,
-        "duration_ms": 298826
+        "duration_ms": 298826,
+        "album_name": "Mezzanine",
+        "album_genres": [],
+        "album_release_date": "1998-01-01"
       }
     ]
   },
@@ -1127,89 +856,21 @@
     ],
     "popularity": 34,
     "followers": 114011,
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5eb39e346ae68214260e1e359da",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab6761610000517439e346ae68214260e1e359da",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f17839e346ae68214260e1e359da",
-        "width": 160
-      }
-    ],
     "url": "https://open.spotify.com/artist/3kx1S2P2Qq3a9bG4DGsAjR",
     "albums": [
       {
         "name": "Synthesizer",
         "release_date": "2024-10-04",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b2737a5feeed453cd989d505c97e",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e027a5feeed453cd989d505c97e",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d000048517a5feeed453cd989d505c97e",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 10
       },
       {
         "name": "Live At LEVITATION",
         "release_date": "2023-06-30",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b2732c6fa7c517eabdb5cf88ec51",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e022c6fa7c517eabdb5cf88ec51",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d000048512c6fa7c517eabdb5cf88ec51",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 8
       },
       {
         "name": "See Through You: Rerealized",
         "release_date": "2023-06-02",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b2739fd4e65be6c5b44fe8e24739",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e029fd4e65be6c5b44fe8e24739",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d000048519fd4e65be6c5b44fe8e24739",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 21
       }
     ],
@@ -1218,61 +879,91 @@
         "name": "Keep Slipping Away",
         "popularity": 36,
         "preview_url": null,
-        "duration_ms": 275400
+        "duration_ms": 275400,
+        "album_name": "Exploding Head",
+        "album_genres": [],
+        "album_release_date": "2009-10-12"
       },
       {
         "name": "Everything Always Goes Wrong",
         "popularity": 34,
         "preview_url": null,
-        "duration_ms": 220786
+        "duration_ms": 220786,
+        "album_name": "Exploding Head",
+        "album_genres": [],
+        "album_release_date": "2009-10-12"
       },
       {
         "name": "Playing the Part",
         "popularity": 33,
         "preview_url": null,
-        "duration_ms": 142730
+        "duration_ms": 142730,
+        "album_name": "Hologram",
+        "album_genres": [],
+        "album_release_date": "2021-07-16"
       },
       {
         "name": "You Got Me",
         "popularity": 32,
         "preview_url": null,
-        "duration_ms": 233291
+        "duration_ms": 233291,
+        "album_name": "Synthesizer",
+        "album_genres": [],
+        "album_release_date": "2024-10-04"
       },
       {
         "name": "End of the Night",
         "popularity": 28,
         "preview_url": null,
-        "duration_ms": 326694
+        "duration_ms": 326694,
+        "album_name": "Hologram",
+        "album_genres": [],
+        "album_release_date": "2021-07-16"
       },
       {
         "name": "Frustrated Operator - Slowdive Remix",
         "popularity": 27,
         "preview_url": null,
-        "duration_ms": 268608
+        "duration_ms": 268608,
+        "album_name": "Re-Pinned",
+        "album_genres": [],
+        "album_release_date": "2018-10-05"
       },
       {
         "name": "I Know I'll See You",
         "popularity": 25,
         "preview_url": null,
-        "duration_ms": 246712
+        "duration_ms": 246712,
+        "album_name": "A Place to Bury Strangers",
+        "album_genres": [],
+        "album_release_date": "2007-01-01"
       },
       {
         "name": "Exploding Head",
         "popularity": 25,
         "preview_url": null,
-        "duration_ms": 213040
+        "duration_ms": 213040,
+        "album_name": "Exploding Head",
+        "album_genres": [],
+        "album_release_date": "2009-10-12"
       },
       {
         "name": "In Your Heart",
         "popularity": 24,
         "preview_url": null,
-        "duration_ms": 190253
+        "duration_ms": 190253,
+        "album_name": "Exploding Head",
+        "album_genres": [],
+        "album_release_date": "2009-10-12"
       },
       {
         "name": "Fear Of Transformation - SUPERNOVA 1006 Remix",
         "popularity": 23,
         "preview_url": null,
-        "duration_ms": 192406
+        "duration_ms": 192406,
+        "album_name": "Fear Of Transformation (SUPERNOVA 1006 Remix)",
+        "album_genres": [],
+        "album_release_date": "2025-07-08"
       }
     ]
   },
@@ -1287,89 +978,21 @@
     ],
     "popularity": 43,
     "followers": 66783,
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab6761610000e5ebc5b9b3939f2ab40d0d7d28f6",
-        "width": 640
-      },
-      {
-        "height": 320,
-        "url": "https://i.scdn.co/image/ab67616100005174c5b9b3939f2ab40d0d7d28f6",
-        "width": 320
-      },
-      {
-        "height": 160,
-        "url": "https://i.scdn.co/image/ab6761610000f178c5b9b3939f2ab40d0d7d28f6",
-        "width": 160
-      }
-    ],
     "url": "https://open.spotify.com/artist/1v9FPBHwuI4FjR7ewOifmJ",
     "albums": [
       {
         "name": "Public Sword",
         "release_date": "2025-10-17",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b273c18b27ab18dc39ec706b9c80",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e02c18b27ab18dc39ec706b9c80",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00004851c18b27ab18dc39ec706b9c80",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 10
       },
       {
         "name": "Elegiac Beat",
         "release_date": "2023-09-01",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b273137fa1f3964da4bea8fa12e2",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e02137fa1f3964da4bea8fa12e2",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00004851137fa1f3964da4bea8fa12e2",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 10
       },
       {
         "name": "Ripped Apparition",
         "release_date": "2020-11-20",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b2733babc6e82a0ca1b4cb058a14",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e023babc6e82a0ca1b4cb058a14",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d000048513babc6e82a0ca1b4cb058a14",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 10
       }
     ],
@@ -1378,61 +1001,91 @@
         "name": "Ringleader",
         "popularity": 53,
         "preview_url": null,
-        "duration_ms": 194772
+        "duration_ms": 194772,
+        "album_name": "Wuthering Drum",
+        "album_genres": [],
+        "album_release_date": "2016-03-18"
       },
       {
         "name": "Heir",
         "popularity": 48,
         "preview_url": null,
-        "duration_ms": 198000
+        "duration_ms": 198000,
+        "album_name": "Wuthering Drum",
+        "album_genres": [],
+        "album_release_date": "2016-03-18"
       },
       {
         "name": "Midsummer Shadow",
         "popularity": 42,
         "preview_url": null,
-        "duration_ms": 226974
+        "duration_ms": 226974,
+        "album_name": "Ripped Apparition",
+        "album_genres": [],
+        "album_release_date": "2020-11-20"
       },
       {
         "name": "Interfaith",
         "popularity": 39,
         "preview_url": null,
-        "duration_ms": 226289
+        "duration_ms": 226289,
+        "album_name": "Wuthering Drum",
+        "album_genres": [],
+        "album_release_date": "2016-03-18"
       },
       {
         "name": "Ecco",
         "popularity": 39,
         "preview_url": null,
-        "duration_ms": 318433
+        "duration_ms": 318433,
+        "album_name": "Veil of Counsel",
+        "album_genres": [],
+        "album_release_date": "2017-03-17"
       },
       {
         "name": "As You Wish",
         "popularity": 36,
         "preview_url": null,
-        "duration_ms": 212321
+        "duration_ms": 212321,
+        "album_name": "Wuthering Drum",
+        "album_genres": [],
+        "album_release_date": "2016-03-18"
       },
       {
         "name": "Shivering Masterpiece",
         "popularity": 32,
         "preview_url": null,
-        "duration_ms": 271474
+        "duration_ms": 271474,
+        "album_name": "Public Sword",
+        "album_genres": [],
+        "album_release_date": "2025-10-17"
       },
       {
         "name": "Lunar",
         "popularity": 35,
         "preview_url": null,
-        "duration_ms": 225097
+        "duration_ms": 225097,
+        "album_name": "Wuthering Drum",
+        "album_genres": [],
+        "album_release_date": "2016-03-18"
       },
       {
         "name": "Lake Effect",
         "popularity": 34,
         "preview_url": null,
-        "duration_ms": 108107
+        "duration_ms": 108107,
+        "album_name": "Public Sword",
+        "album_genres": [],
+        "album_release_date": "2025-10-17"
       },
       {
         "name": "The Line",
         "popularity": 34,
         "preview_url": null,
-        "duration_ms": 277809
+        "duration_ms": 277809,
+        "album_name": "Demolition",
+        "album_genres": [],
+        "album_release_date": "2018-11-09"
       }
     ]
   },
@@ -1446,67 +1099,16 @@
     ],
     "popularity": 28,
     "followers": 8448,
-    "images": [
-      {
-        "height": 640,
-        "url": "https://i.scdn.co/image/ab67616d0000b27358ad46d9abb68bbac2f1c800",
-        "width": 640
-      },
-      {
-        "height": 300,
-        "url": "https://i.scdn.co/image/ab67616d00001e0258ad46d9abb68bbac2f1c800",
-        "width": 300
-      },
-      {
-        "height": 64,
-        "url": "https://i.scdn.co/image/ab67616d0000485158ad46d9abb68bbac2f1c800",
-        "width": 64
-      }
-    ],
     "url": "https://open.spotify.com/artist/3x3wGSv3Xm8xtgXNe6hq99",
     "albums": [
       {
         "name": "Las Vegas",
         "release_date": "1996-01-01",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b27358ad46d9abb68bbac2f1c800",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e0258ad46d9abb68bbac2f1c800",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000485158ad46d9abb68bbac2f1c800",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 10
       },
       {
         "name": "Velvet Desert Music, Vol. 1",
         "release_date": "2019-03-29",
-        "images": [
-          {
-            "url": "https://i.scdn.co/image/ab67616d0000b273cb171b3ffbf09ea6c0376909",
-            "height": 640,
-            "width": 640
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00001e02cb171b3ffbf09ea6c0376909",
-            "height": 300,
-            "width": 300
-          },
-          {
-            "url": "https://i.scdn.co/image/ab67616d00004851cb171b3ffbf09ea6c0376909",
-            "height": 64,
-            "width": 64
-          }
-        ],
         "total_tracks": 15
       }
     ],
@@ -1515,61 +1117,91 @@
         "name": "Elvism",
         "popularity": 41,
         "preview_url": null,
-        "duration_ms": 314426
+        "duration_ms": 314426,
+        "album_name": "Las Vegas",
+        "album_genres": [],
+        "album_release_date": "1996-01-01"
       },
       {
         "name": "Flesh & Bleed",
         "popularity": 33,
         "preview_url": null,
-        "duration_ms": 283266
+        "duration_ms": 283266,
+        "album_name": "Las Vegas",
+        "album_genres": [],
+        "album_release_date": "1996-01-01"
       },
       {
         "name": "Twelve Miles High",
         "popularity": 27,
         "preview_url": null,
-        "duration_ms": 682906
+        "duration_ms": 682906,
+        "album_name": "Las Vegas",
+        "album_genres": [],
+        "album_release_date": "1996-01-01"
       },
       {
         "name": "Milk & Honey",
         "popularity": 24,
         "preview_url": null,
-        "duration_ms": 297960
+        "duration_ms": 297960,
+        "album_name": "Las Vegas",
+        "album_genres": [],
+        "album_release_date": "1996-01-01"
       },
       {
         "name": "The Jealous Guy From Memphis",
         "popularity": 19,
         "preview_url": null,
-        "duration_ms": 398493
+        "duration_ms": 398493,
+        "album_name": "Las Vegas",
+        "album_genres": [],
+        "album_release_date": "1996-01-01"
       },
       {
         "name": "Avalon",
         "popularity": 17,
         "preview_url": null,
-        "duration_ms": 405466
+        "duration_ms": 405466,
+        "album_name": "Las Vegas",
+        "album_genres": [],
+        "album_release_date": "1996-01-01"
       },
       {
         "name": "Bring Trance Back (To Las Vegas) (Blue Hotel)",
         "popularity": 16,
         "preview_url": null,
-        "duration_ms": 436173
+        "duration_ms": 436173,
+        "album_name": "Las Vegas",
+        "album_genres": [],
+        "album_release_date": "1996-01-01"
       },
       {
         "name": "Love Is The Drug (Paris Texas)",
         "popularity": 15,
         "preview_url": null,
-        "duration_ms": 661640
+        "duration_ms": 661640,
+        "album_name": "Las Vegas",
+        "album_genres": [],
+        "album_release_date": "1996-01-01"
       },
       {
         "name": "Do The Strand",
         "popularity": 12,
         "preview_url": null,
-        "duration_ms": 499066
+        "duration_ms": 499066,
+        "album_name": "Las Vegas",
+        "album_genres": [],
+        "album_release_date": "1996-01-01"
       },
       {
         "name": "Swiss Made",
         "popularity": 13,
         "preview_url": null,
-        "duration_ms": 398133
+        "duration_ms": 398133,
+        "album_name": "Las Vegas",
+        "album_genres": [],
+        "album_release_date": "1996-01-01"
       }
     ]
   }
