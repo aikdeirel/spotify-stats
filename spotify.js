@@ -30,38 +30,9 @@ async function main() {
   const topArtists = await Promise.all(
     response.body.items.map(async (artist) => {
       try {
-        // Alben des Künstlers
+        // Artist's albums
         const albums = await spotifyApi.getArtistAlbums(artist.id, { limit: 3 });
-        // Top-Tracks des Künstlers (für Deutschland)
-        const topTracks = await spotifyApi.getArtistTopTracks(artist.id, 'DE');
 
-        // Track-Details erweitern: Album-Informationen abrufen, um Genres des Albums zu erhalten
-        const tracksWithAlbums = await Promise.all(
-          topTracks.body.tracks.map(async (track) => {
-            try {
-              // Album-Details abrufen, um Genres des Albums zu erhalten
-              const album = await spotifyApi.getAlbum(track.album.id);
-              return {
-                name: track.name,
-                popularity: track.popularity,
-                duration_ms: track.duration_ms,
-                album_name: track.album.name,
-                album_genres: album.body.genres || [], // Genres des Albums (falls vorhanden)
-                album_release_date: track.album.release_date
-              };
-            } catch (error) {
-              console.error(`Failed to fetch album for track ${track.name}:`, error.message);
-              return {
-                name: track.name,
-                popularity: track.popularity,
-                duration_ms: track.duration_ms,
-                album_name: track.album.name,
-                album_genres: [],
-                album_release_date: track.album.release_date
-              };
-            }
-          })
-        );
 
         return {
           id: artist.id,
@@ -75,7 +46,7 @@ async function main() {
             release_date: album.release_date,
             total_tracks: album.total_tracks
           })),
-          top_tracks: tracksWithAlbums
+
         };
       } catch (error) {
         console.error(`Failed to fetch additional data for artist ${artist.name}:`, error.message);
@@ -87,7 +58,7 @@ async function main() {
           followers: artist.followers.total,
           url: artist.external_urls.spotify,
           albums: [],
-          top_tracks: []
+
         };
       }
     })
