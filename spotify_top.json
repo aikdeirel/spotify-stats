@@ -99,15 +99,6 @@
         "album_release_date": "2018"
       },
       {
-        "name": "Breathe, Sail On",
-        "popularity": 7,
-        "preview_url": null,
-        "duration_ms": 219939,
-        "album_name": "Current",
-        "album_genres": [],
-        "album_release_date": "2018"
-      },
-      {
         "name": "Fafafafuckin'",
         "popularity": 7,
         "preview_url": null,
@@ -115,6 +106,15 @@
         "album_name": "D Is Done",
         "album_genres": [],
         "album_release_date": "2008-10-20"
+      },
+      {
+        "name": "Breathe, Sail On",
+        "popularity": 7,
+        "preview_url": null,
+        "duration_ms": 219939,
+        "album_name": "Current",
+        "album_genres": [],
+        "album_release_date": "2018"
       }
     ]
   },
@@ -184,7 +184,7 @@
       },
       {
         "name": "Little Sister",
-        "popularity": 61,
+        "popularity": 62,
         "preview_url": null,
         "duration_ms": 174026,
         "album_name": "Lullabies To Paralyze",
@@ -211,7 +211,7 @@
       },
       {
         "name": "The Lost Art Of Keeping A Secret",
-        "popularity": 58,
+        "popularity": 59,
         "preview_url": null,
         "duration_ms": 216000,
         "album_name": "Rated R",
@@ -556,6 +556,15 @@
         "album_release_date": "2016-01-22"
       },
       {
+        "name": "Underlie",
+        "popularity": 22,
+        "preview_url": null,
+        "duration_ms": 339295,
+        "album_name": "Part Island",
+        "album_genres": [],
+        "album_release_date": "2019-04-05"
+      },
+      {
         "name": "Hunting Dance",
         "popularity": 22,
         "preview_url": null,
@@ -565,17 +574,8 @@
         "album_release_date": "2009-10-03"
       },
       {
-        "name": "Underlie",
-        "popularity": 21,
-        "preview_url": null,
-        "duration_ms": 339295,
-        "album_name": "Part Island",
-        "album_genres": [],
-        "album_release_date": "2019-04-05"
-      },
-      {
         "name": "Bleak Epiphany in Slow Motion",
-        "popularity": 20,
+        "popularity": 21,
         "preview_url": null,
         "duration_ms": 248466,
         "album_name": "Bleak Epiphanies in Slow Motion",
@@ -668,7 +668,7 @@
       },
       {
         "name": "Nightwalker",
-        "popularity": 39,
+        "popularity": 40,
         "preview_url": null,
         "duration_ms": 349573,
         "album_name": "The Last Resort",
@@ -694,15 +694,6 @@
         "album_release_date": "2014-11-24"
       },
       {
-        "name": "the end or the beginning - Trentemøller Remix",
-        "popularity": 31,
-        "preview_url": null,
-        "duration_ms": 218160,
-        "album_name": "slow food",
-        "album_genres": [],
-        "album_release_date": "2025-10-31"
-      },
-      {
         "name": "Like a Stone - trentemøller Remix",
         "popularity": 37,
         "preview_url": null,
@@ -710,6 +701,15 @@
         "album_name": "Like a Stone (trentemøller Remix)",
         "album_genres": [],
         "album_release_date": "2021-02-24"
+      },
+      {
+        "name": "the end or the beginning - Trentemøller Remix",
+        "popularity": 31,
+        "preview_url": null,
+        "duration_ms": 218160,
+        "album_name": "slow food",
+        "album_genres": [],
+        "album_release_date": "2025-10-31"
       },
       {
         "name": "Come Undone - Trentemøller Remix",
@@ -931,7 +931,7 @@
       },
       {
         "name": "I Know I'll See You",
-        "popularity": 25,
+        "popularity": 26,
         "preview_url": null,
         "duration_ms": 246712,
         "album_name": "A Place to Bury Strangers",
@@ -964,128 +964,6 @@
         "album_name": "Fear Of Transformation (SUPERNOVA 1006 Remix)",
         "album_genres": [],
         "album_release_date": "2025-07-08"
-      }
-    ]
-  },
-  {
-    "id": "1v9FPBHwuI4FjR7ewOifmJ",
-    "name": "Public Memory",
-    "genres": [
-      "cold wave",
-      "darkwave",
-      "witch house",
-      "trip hop"
-    ],
-    "popularity": 43,
-    "followers": 66783,
-    "url": "https://open.spotify.com/artist/1v9FPBHwuI4FjR7ewOifmJ",
-    "albums": [
-      {
-        "name": "Public Sword",
-        "release_date": "2025-10-17",
-        "total_tracks": 10
-      },
-      {
-        "name": "Elegiac Beat",
-        "release_date": "2023-09-01",
-        "total_tracks": 10
-      },
-      {
-        "name": "Ripped Apparition",
-        "release_date": "2020-11-20",
-        "total_tracks": 10
-      }
-    ],
-    "top_tracks": [
-      {
-        "name": "Ringleader",
-        "popularity": 53,
-        "preview_url": null,
-        "duration_ms": 194772,
-        "album_name": "Wuthering Drum",
-        "album_genres": [],
-        "album_release_date": "2016-03-18"
-      },
-      {
-        "name": "Heir",
-        "popularity": 48,
-        "preview_url": null,
-        "duration_ms": 198000,
-        "album_name": "Wuthering Drum",
-        "album_genres": [],
-        "album_release_date": "2016-03-18"
-      },
-      {
-        "name": "Midsummer Shadow",
-        "popularity": 42,
-        "preview_url": null,
-        "duration_ms": 226974,
-        "album_name": "Ripped Apparition",
-        "album_genres": [],
-        "album_release_date": "2020-11-20"
-      },
-      {
-        "name": "Interfaith",
-        "popularity": 39,
-        "preview_url": null,
-        "duration_ms": 226289,
-        "album_name": "Wuthering Drum",
-        "album_genres": [],
-        "album_release_date": "2016-03-18"
-      },
-      {
-        "name": "Ecco",
-        "popularity": 39,
-        "preview_url": null,
-        "duration_ms": 318433,
-        "album_name": "Veil of Counsel",
-        "album_genres": [],
-        "album_release_date": "2017-03-17"
-      },
-      {
-        "name": "As You Wish",
-        "popularity": 36,
-        "preview_url": null,
-        "duration_ms": 212321,
-        "album_name": "Wuthering Drum",
-        "album_genres": [],
-        "album_release_date": "2016-03-18"
-      },
-      {
-        "name": "Shivering Masterpiece",
-        "popularity": 32,
-        "preview_url": null,
-        "duration_ms": 271474,
-        "album_name": "Public Sword",
-        "album_genres": [],
-        "album_release_date": "2025-10-17"
-      },
-      {
-        "name": "Lunar",
-        "popularity": 35,
-        "preview_url": null,
-        "duration_ms": 225097,
-        "album_name": "Wuthering Drum",
-        "album_genres": [],
-        "album_release_date": "2016-03-18"
-      },
-      {
-        "name": "Lake Effect",
-        "popularity": 34,
-        "preview_url": null,
-        "duration_ms": 108107,
-        "album_name": "Public Sword",
-        "album_genres": [],
-        "album_release_date": "2025-10-17"
-      },
-      {
-        "name": "The Line",
-        "popularity": 34,
-        "preview_url": null,
-        "duration_ms": 277809,
-        "album_name": "Demolition",
-        "album_genres": [],
-        "album_release_date": "2018-11-09"
       }
     ]
   },
