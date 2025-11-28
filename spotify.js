@@ -9,21 +9,40 @@ const spotifyApi = new SpotifyWebApi({
   refreshToken: process.env.REFRESH_TOKEN
 });
 
-// Initialize Notion client
-const notion = new Client({ auth: process.env.NOTION_API_KEY });
+// Initialize Notion client with ntn_ token support
+const notion = new Client({
+  auth: process.env.NOTION_API_KEY, // Uses ntn_ prefix token
+  notionVersion: '2022-06-28' // Explicit API version
+});
 
 async function updateNotionPageWithJson(jsonContent) {
   try {
-    // First, get the current page content to preserve the title
-    const currentPage = await notion.pages.retrieve({ page_id: process.env.NOTION_PAGE_ID });
+    // First verify authentication
+    const user = await notion.users.me();
+    console.log(`Authenticated with Notion as: ${user.name}`);
 
-    // Update the page content while preserving the title
-    await notion.pages.update({
-      page_id: process.env.NOTION_PAGE_ID,
-      properties: currentPage.properties, // Keep existing properties
+    // Get current page to preserve properties
+    const currentPage = await notion.pages.retrieve({
+      page_id: process.env.NOTION_PAGE_ID
     });
 
-    // Clear existing content and add the new JSON content
+    // Clear existing content
+    const blockResponse = await notion.blocks.children.list({
+      block_id: process.env.NOTION_PAGE_ID
+    });
+
+    // Delete existing content blocks
+    for (const block of blockResponse.results) {
+      try {
+        await notion.blocks.delete({
+          block_id: block.id
+        });
+      } catch (error) {
+        console.warn(`Could not delete block ${block.id}:`, error.message);
+      }
+    }
+
+    // Add new content with JSON
     await notion.blocks.children.append({
       block_id: process.env.NOTION_PAGE_ID,
       children: [
@@ -46,18 +65,24 @@ async function updateNotionPageWithJson(jsonContent) {
 
     console.log('Successfully updated Notion page with JSON content');
   } catch (error) {
-    console.error('Error updating Notion page:', error.message);
-    console.error('Error details:', error.response?.data || error);
+    console.error('Notion API Error:', error.message);
+    if (error.code === 'unauthorized') {
+      console.error('Authentication failed. Please check:');
+      console.error('1. Your token starts with "ntn_"');
+      console.error('2. The integration is added to your page');
+      console.error('3. The token has required permissions');
+    }
+    throw error; // This will make the GitHub Action fail
   }
 }
 
 async function main() {
-  // Refresh access token
+  // Refresh Spotify access token
   try {
     const data = await spotifyApi.refreshAccessToken();
     spotifyApi.setAccessToken(data.body['access_token']);
   } catch (error) {
-    console.error('Failed to refresh access token:', error.message);
+    console.error('Failed to refresh Spotify access token:', error.message);
     process.exit(1);
   }
 
@@ -73,11 +98,11 @@ async function main() {
     process.exit(1);
   }
 
-  // Process each artist with more robust error handling
+  // Process each artist with robust error handling
   const topArtists = await Promise.all(
     response.body.items.map(async (artist) => {
       try {
-        // Get artist albums with error handling
+        // Get artist albums with fallback
         let albums = [];
         try {
           const albumsResponse = await spotifyApi.getArtistAlbums(artist.id, { limit: 3 });
@@ -87,22 +112,23 @@ async function main() {
             total_tracks: album.total_tracks
           }));
         } catch (error) {
-          console.warn(`Failed to fetch albums for artist ${artist.name}:`, error.message);
+          console.warn(`Using fallback for albums (${artist.name}):`, error.message);
         }
 
-        // Get artist top tracks with error handling
+        // Get artist top tracks with fallback
         let topTracks = [];
         try {
           const tracksResponse = await spotifyApi.getArtistTopTracks(artist.id, 'DE');
           topTracks = await Promise.all(
             tracksResponse.body.tracks.map(async (track) => {
               try {
+                // Get album details with fallback
                 let albumData = {};
                 try {
                   const album = await spotifyApi.getAlbum(track.album.id);
                   albumData = album.body;
-                } catch (albumError) {
-                  console.warn(`Using fallback album data for track ${track.name}:`, albumError.message);
+                } catch (error) {
+                  console.warn(`Using fallback for album (${track.name}):`, error.message);
                 }
 
                 return {
@@ -114,8 +140,8 @@ async function main() {
                   album_genres: albumData.genres || [],
                   album_release_date: track.album.release_date
                 };
-              } catch (trackError) {
-                console.warn(`Failed to process track ${track.name}:`, trackError.message);
+              } catch (error) {
+                console.warn(`Using fallback for track (${track.name}):`, error.message);
                 return {
                   name: track.name,
                   popularity: track.popularity,
@@ -128,22 +154,22 @@ async function main() {
               }
             })
           );
-        } catch (tracksError) {
-          console.warn(`Failed to fetch top tracks for artist ${artist.name}:`, tracksError.message);
+        } catch (error) {
+          console.warn(`Using fallback for top tracks (${artist.name}):`, error.message);
         }
 
         return {
           id: artist.id,
           name: artist.name,
-          genres: artist.genres,
+          genres: artist.genres || [],
           popularity: artist.popularity,
-          followers: artist.followers.total,
+          followers: artist.followers?.total || 0,
           url: artist.external_urls.spotify,
           albums: albums,
           top_tracks: topTracks
         };
-      } catch (artistError) {
-        console.error(`Failed to process artist ${artist.name}:`, artistError.message);
+      } catch (error) {
+        console.error(`Failed to process artist (${artist.name}):`, error.message);
         return {
           id: artist.id,
           name: artist.name,
@@ -166,10 +192,12 @@ async function main() {
   try {
     await updateNotionPageWithJson(topArtists);
   } catch (error) {
-    console.error('Failed to update Notion page, but JSON file was saved:', error.message);
+    console.error('Failed to update Notion page. JSON file was saved though.');
+    throw error; // Make GitHub Action fail
   }
 }
 
+// Run the main function with proper error handling
 main().catch(error => {
   console.error('Unexpected error:', error.message);
   process.exit(1);
