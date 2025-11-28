@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Madensuyu",
+    "genres": [
+      "post-rock"
+    ],
+    "popularity": 14,
+    "url": "https://open.spotify.com/artist/77rXxPR5619AfT3a6YzL1P"
+  },
+  {
+    "name": "Queens of the Stone Age",
+    "genres": [
+      "stoner rock",
+      "alternative rock"
+    ],
+    "popularity": 71,
+    "url": "https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn"
+  },
+  {
+    "name": "Mogwai",
+    "genres": [
+      "post-rock",
+      "shoegaze"
+    ],
+    "popularity": 50,
+    "url": "https://open.spotify.com/artist/34UhPkLbtFKRq3nmfFgejG"
+  },
+  {
+    "name": "Death In Vegas",
+    "genres": [
+      "big beat",
+      "trip hop"
+    ],
+    "popularity": 42,
+    "url": "https://open.spotify.com/artist/5aj3LEYRbuaabjjHkj5oE1"
+  },
+  {
+    "name": "Latitudes",
+    "genres": [
+      "sludge metal",
+      "post-rock",
+      "drone metal",
+      "stoner metal",
+      "progressive metal",
+      "drone"
+    ],
+    "popularity": 27,
+    "url": "https://open.spotify.com/artist/32xWwz2gIfDyoKrUo9ros1"
+  },
+  {
+    "name": "trentemøller",
+    "genres": [
+      "minimal techno",
+      "electronica"
+    ],
+    "popularity": 46,
+    "url": "https://open.spotify.com/artist/4O71i7ke5iIBX6RNSFoZbS"
+  },
+  {
+    "name": "Massive Attack",
+    "genres": [
+      "trip hop",
+      "downtempo"
+    ],
+    "popularity": 70,
+    "url": "https://open.spotify.com/artist/6FXMGgJwohJLUSr5nVlf9X"
+  },
+  {
+    "name": "A Place To Bury Strangers",
+    "genres": [
+      "shoegaze",
+      "noise rock",
+      "post-punk",
+      "cold wave",
+      "neo-psychedelic",
+      "darkwave",
+      "dream pop"
+    ],
+    "popularity": 34,
+    "url": "https://open.spotify.com/artist/3kx1S2P2Qq3a9bG4DGsAjR"
+  },
+  {
+    "name": "Public Memory",
+    "genres": [
+      "cold wave",
+      "darkwave",
+      "witch house",
+      "trip hop"
+    ],
+    "popularity": 43,
+    "url": "https://open.spotify.com/artist/1v9FPBHwuI4FjR7ewOifmJ"
+  },
+  {
+    "name": "burger/ink",
+    "genres": [
+      "dub techno",
+      "idm",
+      "minimal techno"
+    ],
+    "popularity": 28,
+    "url": "https://open.spotify.com/artist/3x3wGSv3Xm8xtgXNe6hq99"
+  }
+]
