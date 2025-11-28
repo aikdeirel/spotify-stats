@@ -1,0 +1,12 @@
+{
+  "name": "spotify-stats",
+  "version": "1.0.0",
+  "description": "Fetch and display Spotify top artists",
+  "main": "spotify.js",
+  "scripts": {
+    "start": "node spotify.js"
+  },
+  "dependencies": {
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
