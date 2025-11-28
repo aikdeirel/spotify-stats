@@ -7,6 +7,7 @@
     "start": "node spotify.js"
   },
   "dependencies": {
-    "spotify-web-api-node": "^5.0.2"
+    "spotify-web-api-node": "^5.0.2",
+    "@notionhq/client": "^2.2.10"
   }
 }
