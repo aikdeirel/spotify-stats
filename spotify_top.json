@@ -27,34 +27,6 @@
     ]
   },
   {
-    "id": "4pejUc4iciQfgdX6OKulQn",
-    "name": "Queens of the Stone Age",
-    "genres": [
-      "stoner rock",
-      "alternative rock"
-    ],
-    "popularity": 71,
-    "followers": 3854909,
-    "url": "https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn",
-    "albums": [
-      {
-        "name": "In Times New Roman...",
-        "release_date": "2023-06-16",
-        "total_tracks": 10
-      },
-      {
-        "name": "Villains",
-        "release_date": "2017-08-25",
-        "total_tracks": 9
-      },
-      {
-        "name": "...Like Clockwork",
-        "release_date": "2013-06-03",
-        "total_tracks": 10
-      }
-    ]
-  },
-  {
     "id": "34UhPkLbtFKRq3nmfFgejG",
     "name": "Mogwai",
     "genres": [
